@@ -1,4 +1,8 @@
-﻿namespace ConsoleApp1
+﻿using System;
+using System.Threading;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
 {
     internal class Program
     {
