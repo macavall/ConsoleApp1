@@ -1,5 +1,13 @@
 ﻿using System;
 using System.Threading.Tasks;
+static async Task Main()
+{
+    await Console.Out.WriteLineAsync("Starting");
+
+    var myByte = new ByteArrayCreator();
+
+    Console.ReadLine();
+}
 
 public class ByteArrayCreator : IDisposable
 {
